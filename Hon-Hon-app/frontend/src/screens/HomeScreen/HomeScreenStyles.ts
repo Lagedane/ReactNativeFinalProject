@@ -302,6 +302,46 @@ const styles = StyleSheet.create({
     right:3,
     top:-40
   },
+  circleCenter:{
+    position:'relative',
+    width:'100%',
+    zIndex:100,
+  },
+  circleMusic:{
+    position:'absolute',
+    bottom:-80,
+    right:25,
+    width:75,
+    height:75,
+    justifyContent:'center',
+    alignItems:'center',
+    borderRadius:60,
+    zIndex:100,
+    backgroundColor:colors.background
+  },
+  musicPopUp:{
+    position:'absolute',
+    bottom:-100,
+    right:110,
+    width:230,
+    height:115,
+    paddingVertical:15,
+    paddingHorizontal:25,
+    backgroundColor:colors.secondary,
+    borderRadius:20
+  },
+  directionButton:{
+    marginTop:15,
+    flexDirection:'row',
+    justifyContent:'space-between'
+  },
+  buttonAction:{
+    paddingVertical:5,
+    paddingHorizontal:10,
+    width:80,
+    alignItems:'center',
+    borderRadius:20
+  }
 });
 
 export default styles;

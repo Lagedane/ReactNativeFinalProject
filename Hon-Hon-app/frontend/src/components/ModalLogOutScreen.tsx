@@ -1,6 +1,6 @@
 import { View, Text, Modal, TouchableOpacity } from "react-native";
 import React, { useEffect, useState } from "react";
-import styles from "./HomeScreenStyles";
+import styles from "../screens/HomeScreen/HomeScreenStyles";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useNavigation } from "@react-navigation/native";
 
