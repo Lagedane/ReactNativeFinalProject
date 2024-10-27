@@ -94,7 +94,7 @@ PORT=5000
 ```
 ---
 
-![Hon-Hon App Poster](https://cdn.discordapp.com/attachments/1263092609904152639/1300153358811922462/Hon_Hon_Poster.png?ex=671fcdac&is=671e7c2c&hm=7e72e0f096f3b8e44ea43d33d0f5766af231401a419ba6e5167fa334b8f1b08f&)
+![Hon-Hon App Poster](https://github.com/Lagedane/ReactNativeFinalProject/blob/main/Documents/Phase%203/Hon%20Hon%20Poster.png)
 
 ---
 > [ITE-434] Final Project &nbsp;&nbsp;
