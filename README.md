@@ -81,7 +81,17 @@ This project contains two main parts:
 
 4. Ensure the backend server is running successfully to allow network requests from the frontend.
 
+### Environment Setup
 
+To connect to a MongoDB database, create a `.env` file in the `backend` directory and add the following environment variables:
+
+```plaintext
+# MongoDB URI connection string
+MONGODB_URI=your_mongodb_connection_string
+
+# Port for backend server
+PORT=5000
+```
 ---
 
 ![Hon-Hon App Poster](https://cdn.discordapp.com/attachments/1263092609904152639/1300153358811922462/Hon_Hon_Poster.png?ex=671fcdac&is=671e7c2c&hm=7e72e0f096f3b8e44ea43d33d0f5766af231401a419ba6e5167fa334b8f1b08f&)
