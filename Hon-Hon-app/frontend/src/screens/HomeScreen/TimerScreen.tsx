@@ -16,7 +16,7 @@ import colors from "../../styles/color";
 import styles from "./HomeScreenStyles";
 import Slider from "@react-native-community/slider";
 import { updateFocusTime } from "../../../services/product-service";
-import ModalLogOutScreen from "./ModalLogOutScreen";
+import ModalLogOutScreen from "../../components/ModalLogOutScreen";
 import DropDown from "./DropDown/DropDown";
 import { playSound, stopSound } from "../../components/musicFunction";
 

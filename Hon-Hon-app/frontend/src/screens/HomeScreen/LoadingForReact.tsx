@@ -103,7 +103,7 @@ const LoadingForReact: React.FC<PropType> = ({ timing, onTimeOut, setTimeDown ,o
                     <View style={styles.miniCircle}></View>
                 </Animated.View>
             </View>
-            <View style={{position:'absolute',top:20}}><Text style={{fontSize:17,color:colors.textSecondary}}>Total focused time: {formattedTime2} min</Text></View>
+            <View style={{position:'absolute',top:20}}><Text style={{fontSize:17,color:colors.textSecondary}}>Time in Focus: {formattedTime2} min</Text></View>
             <Svg width={DIAMETER} height={DIAMETER} viewBox={`0 0 ${DIAMETER} ${DIAMETER}`} style={{ zIndex: 1 }} >
                 <G origin={`${HALF_CIRCLE},${HALF_CIRCLE}`} rotation={'-90'} >
                     <AnimatedCircle

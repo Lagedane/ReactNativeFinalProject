@@ -26,7 +26,7 @@ import {
   getProfile,
 } from "../../../services/product-service";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import ModalLogOutScreen from "./ModalLogOutScreen";
+import ModalLogOutScreen from "../../components/ModalLogOutScreen";
 import { stopSound } from "../../components/musicFunction";
 
 interface Profile {

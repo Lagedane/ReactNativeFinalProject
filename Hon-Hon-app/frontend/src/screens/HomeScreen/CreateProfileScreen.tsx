@@ -23,7 +23,7 @@ import * as ImagePicker from "expo-image-picker";
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { insertProfile } from "../../../services/product-service";
-import ModalLogOutScreen from "./ModalLogOutScreen";
+import ModalLogOutScreen from "../../components/ModalLogOutScreen";
 
 const HomeScreen = (): React.JSX.Element => {
   const formData = new FormData();
