@@ -18,7 +18,7 @@ import styles from "./HomeScreenStyles";
 import colors from "../../styles/color";
 import { HomeScreenNavigationProp } from "../../types/types";
 import BarChartDemo from "./BarChartDemo";
-import DropDown from "./DropDown";
+import DropDown from "./DropDown/DropDown";
 import * as ImagePicker from "expo-image-picker";
 import axios from "axios";
 import AsyncStorage from "@react-native-async-storage/async-storage";
@@ -233,7 +233,7 @@ const HomeScreen = (): React.JSX.Element => {
                 </View>
 
                 <View style={{ width: "100%" }}>
-                  <DropDown onValueChange={handleDropdownChange} />
+                  <DropDown onValueChange={handleDropdownChange} dropDownType={1}/>
                 </View>
               </View>
               <View style={styles.centerButton}>

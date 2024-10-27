@@ -27,6 +27,7 @@ import {
 } from "../../../services/product-service";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import ModalLogOutScreen from "./ModalLogOutScreen";
+import { stopSound } from "../../components/musicFunction";
 
 interface Profile {
   title: string;
@@ -132,6 +133,10 @@ const HomeScreen = (): React.JSX.Element => {
       await fetchProfile();
     }
   };
+
+  useEffect(()=>{
+    stopSound()
+  },[])
 
   useEffect(() => {
     fetchProfile();
